@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
-const PASSWORD = "aSuperSecretPassword"
+const PASSWORD = "louvres2025"
 
 const inter = Inter({ subsets: ['latin'] })
 
