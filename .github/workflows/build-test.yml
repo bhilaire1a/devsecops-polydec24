@@ -15,7 +15,7 @@ jobs:
       - run: npm install
       - name: run npm audit (SCA)
         run: |
-          echo "Eseguo Software Composition Analysis con npm audit..."
+          echo "Exec Software Composition Analysis with npm audit..."
           npm audit --audit-level=moderate
 
   build:
