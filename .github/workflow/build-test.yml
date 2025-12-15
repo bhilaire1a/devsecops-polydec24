@@ -9,17 +9,15 @@ jobs:
     steps: 
         - name: checkout repo
           uses: actions/checkout@v4
-hjh
+
         - name: use node.js
           uses: actions/setup-node@v4
           with: 
             node-version: '18.x'
-         
+          run: npm audit
+          
         - name: Install dependencies
           run: npm install 
-
-        - name: Run SCA (npm audit)
-          run: npm audit
 
         - name: Build application
           run: npm run build
